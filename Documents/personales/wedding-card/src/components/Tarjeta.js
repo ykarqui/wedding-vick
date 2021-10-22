@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../WeadingDate.css';
-import { Button, Modal } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import {
 	FaRegEnvelopeOpen,
     FaCopy
@@ -9,22 +9,7 @@ import '../Tarjeta.css';
 
 const WeadingDate = () => {
 
-    const getPriceOnMonth = () => {
-        const month = new Date().getMonth();
-
-        if ( month >= 2 ) {
-            this.setState({price: '5200'});;
-        }
-        if ( month === 0 ) {
-            this.setState({price: '5350'});;
-        }
-        
-        if ( month === 1 ) {
-            this.setState({price: '5500'});;
-        }
-    }
-
-    const [price, setPrice] = useState('5200');
+    const [price] = useState('5200');
 
     const redirectForm = () => {
         window.location.href="https://forms.gle/ebuTrw2tfTSzjuvL6";
