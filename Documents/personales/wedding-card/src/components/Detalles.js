@@ -39,7 +39,9 @@ const Detalles = () => {
 							<p> <FaMapMarkedAlt/> Progreso 59, Villa Allende</p>
                             <p>
 							<div className="map-responsive">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3409.819321090834!2d-64.30063558438923!3d-31.281092596851835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329d2460dc6ec7%3A0xe8052cc1ef6f258!2s1915%20Eventos!5e0!3m2!1ses-419!2sar!4v1634704759010!5m2!1ses-419!2sar" width="600" height="450" frameBorder="0" style={{border:0}} allowFullScreen=""></iframe>
+                            <iframe 
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3409.819321090834!2d-64.30063558438923!3d-31.281092596851835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329d2460dc6ec7%3A0xe8052cc1ef6f258!2s1915%20Eventos!5e0!3m2!1ses-419!2sar!4v1634704759010!5m2!1ses-419!2sar"
+								width="600" height="450" frameBorder="0" style={{border:0}} allowFullScreen="" title="myFrame"></iframe>
                                 </div>
 								</p>
 						</div> 
