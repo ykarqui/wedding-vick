@@ -25,25 +25,32 @@ const Detalles = () => {
 						
 						<div className="w-detail right">
 							<i className="icon icon-ciurclke"></i>
-							<h3 className="title">Iglesia</h3>
-							<p><FaChurch /> A confirmar Iglesia</p>
+							<h3 className="title">Iglesia - 19hs</h3>
+							<p><FaChurch /> Nuestra Señora de Loreto</p>
 							<p><FaRegCalendarAlt /> 27 de febrero de 2022</p>
-                            <p><i className="icon icon-email-plane"></i></p>
+                            <p> <FaMapMarkedAlt/> Av. Fuerza Aerea Argentina 6500, Córdoba</p>
+							<p>
+								<div className="map-responsive">
+									<iframe
+										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2313.8932351079957!2d-64.27515121864893!3d-31.43314658559257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a1d88cece70d%3A0x6e9a4aaa3780310f!2sNuestra%20Se%C3%B1ora%20de%20Loreto!5e0!3m2!1ses-419!2sar!4v1636692877419!5m2!1ses-419!2sar"
+										width="600" height="450" frameBorder="0" style={{border:0}} allowFullScreen="" title="myFrame"></iframe>
+								</div>
+							</p>
 						</div> 
 						
 						<div className="w-detail left">
 							<i className="icon icon-cake"></i>
-							<h3 className="title">SALON</h3>
+							<h3 className="title">SALON - 21hs</h3>
 							<p> <FaGlassCheers/> 1915 Eventos</p>
 							<p> <FaRegCalendarAlt /> 27 de febrero de 2022</p>
 							<p> <FaMapMarkedAlt/> Progreso 59, Villa Allende</p>
                             <p>
-							<div className="map-responsive">
-                            <iframe 
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3409.819321090834!2d-64.30063558438923!3d-31.281092596851835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329d2460dc6ec7%3A0xe8052cc1ef6f258!2s1915%20Eventos!5e0!3m2!1ses-419!2sar!4v1634704759010!5m2!1ses-419!2sar"
-								width="600" height="450" frameBorder="0" style={{border:0}} allowFullScreen="" title="myFrame"></iframe>
-                                </div>
-								</p>
+								<div className="map-responsive">
+									<iframe 
+										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3409.819321090834!2d-64.30063558438923!3d-31.281092596851835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329d2460dc6ec7%3A0xe8052cc1ef6f258!2s1915%20Eventos!5e0!3m2!1ses-419!2sar!4v1634704759010!5m2!1ses-419!2sar"
+										width="600" height="450" frameBorder="0" style={{border:0}} allowFullScreen="" title="myFrame"></iframe>
+								</div>
+							</p>
 						</div> 
 						
 					</div>

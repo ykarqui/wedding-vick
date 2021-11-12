@@ -9,7 +9,7 @@ const WeadingDate = () => {
                 <div className="display-table-cell">
                     <div className="slider-content">
                         <img className="round-img" src={hand} alt="Sindur Dan"/> 
-                        <h5 className="date">27 de febrero de 2021</h5>
+                        <h5 className="date">27 de febrero de 2022</h5>
                         <h3 className="pre-title">Save The Date</h3>
                         <h1 className="title">
                             Delfi & Juan
