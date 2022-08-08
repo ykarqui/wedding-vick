@@ -40,10 +40,8 @@ const WeadingDate = () => {
                     <br/>
                     <br/>
                     <br/>
-                    <h5>CA Yamil $ 928 0020314107 <br/>
-                    Nombre: Yamil Karqui <br/>
-                    CUIL: 20390711078 <br/>
-                    CBU: 0200928911000020314176</h5>
+                    <h5>Nombre: Yamil Karqui <br/>
+                    CUIL: 20390711078 <br/></h5>
                     <br/><br/>
                     <Button 
                         onClick={ redirectForm }
