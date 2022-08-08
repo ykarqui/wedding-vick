@@ -27,7 +27,7 @@ const WeadingDate = () => {
                     <h1 className="title"> Tarjeta </h1>
                     <br/><br/>
 
-                    <h3>Pagar por transferencia [$ {price} ]</h3>
+                    <h3>Pagar por transferencia <br/> [$ {price} ]</h3>
                     <br/>    
                     <h5>Alias/CBU: <b><strong>victoria.yamil.boda</strong></b></h5>
                     <br/>

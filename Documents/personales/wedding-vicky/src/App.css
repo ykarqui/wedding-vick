@@ -285,17 +285,19 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .wedding-details{ overflow: hidden; position: relative; }
 
-.wedding-details:after{ content:''; position: absolute; top: 0; bottom: 0; left: 50%; margin-left: -.5px;
-	width: 1px; background: #ccc; }
+@media (max-width: 450px) {
+	.wedding-details:after{ content:''; position: absolute; top: 0; bottom: 0; left: 50%; margin-left: -.5px;
+		width: 1px; background: #ccc; }
+	
+	.w-detail:after{ content:''; position: absolute; top: 0; height: 18px; width: 18px; border-radius: 20px;
+			z-index: 1; border: 1px solid #aaa; background: #fff; }
+  }
 
 .w-detail{ width: 50%; padding: 0 50px; margin-bottom: 30px; position: relative; clear: both; margin-top: -40px; }
 
 .w-detail:first-child{ margin-top: 0; }
 
 .w-detail:last-child{ margin-bottom: 0; }
-
-.w-detail:after{ content:''; position: absolute; top: 0; height: 18px; width: 18px; border-radius: 20px;
-	z-index: 1; border: 1px solid #aaa; background: #fff; }
 
 .w-detail.right{ text-align: left;  float: right; }
 
