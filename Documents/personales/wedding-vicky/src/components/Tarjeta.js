@@ -8,7 +8,7 @@ import '../Tarjeta.css';
 
 const WeadingDate = () => {
 
-    const [price] = useState('10200');
+    const [price] = useState('11500');
 
     const redirectForm = () => {
         window.location.href="https://docs.google.com/forms/d/e/1FAIpQLSfKSCGevncLpNsLJ3DY5ilxATFcI8wAGrwrzN0R7hnWGCTaBQ/viewform?usp=sf_link";
