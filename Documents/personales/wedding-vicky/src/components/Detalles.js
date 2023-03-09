@@ -43,7 +43,7 @@ const Detalles = () => {
 						
 						<div className="w-detail left">
 							<i className="icon icon-cake"></i>
-							<h3 className="title">SALÓN - 19:30hs</h3>
+							<h3 className="title">SALÓN - 19:00hs</h3>
 							<p> <FaGlassCheers/> 1915 Eventos</p>
 							<p> <FaRegCalendarAlt /> 24 de marzo de 2023</p>
 							<p> <FaMapMarkedAlt/> Progreso 59, Villa Allende</p>
