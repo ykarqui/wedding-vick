@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import {
-	FaGifts,
+    FaGift,
     FaCopy
-} from 'react-icons/fa';
+} from "react-icons/fa";
 import '../Tarjeta.css';
 
 const WeadingDate = () => {
@@ -23,7 +23,7 @@ const WeadingDate = () => {
             <div className="display-table center-text">
                 <div className="display-table-cell">
                     <div className="slider-content">
-                    <FaGifts /> 
+                    <FaGift/> 
                     <h1 className="title"> Regalos </h1>
                     <br/><br/>
    
