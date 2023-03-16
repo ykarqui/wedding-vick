@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import {
-    FaGift,
     FaCopy
 } from "react-icons/fa";
 import '../Tarjeta.css';
@@ -22,8 +21,7 @@ const WeadingDate = () => {
         <div className="main-slider">
             <div className="display-table center-text">
                 <div className="display-table-cell">
-                    <div className="slider-content">
-                    <FaGift/> 
+                    <div className="slider-content"> 
                     <h1 className="title"> Regalos </h1>
                     <br/><br/>
    
