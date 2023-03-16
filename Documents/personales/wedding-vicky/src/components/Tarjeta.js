@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import {
-	FaRegEnvelopeOpen,
+	FaGifts,
     FaCopy
 } from 'react-icons/fa';
 import '../Tarjeta.css';
@@ -23,12 +23,10 @@ const WeadingDate = () => {
             <div className="display-table center-text">
                 <div className="display-table-cell">
                     <div className="slider-content">
-                    <FaRegEnvelopeOpen /> 
-                    <h1 className="title"> Tarjeta </h1>
+                    <FaGifts /> 
+                    <h1 className="title"> Regalos </h1>
                     <br/><br/>
-
-                    <h3>Pagar por transferencia <br/> [$ {price} ]</h3>
-                    <br/>    
+   
                     <h5>Alias/CBU: <b><strong>victoria.yamil.boda</strong></b></h5>
                     <br/>
                     <Button 
