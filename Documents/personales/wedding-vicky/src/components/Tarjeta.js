@@ -40,14 +40,7 @@ const WeadingDate = () => {
                     <br/>
                     <h5>Nombre: Yamil Karqui <br/>
                     CUIL: 20390711078 <br/></h5>
-                    <br/><br/>
-                    <Button 
-                        onClick={ redirectForm }
-                        variant="link" 
-                        size="lg"
-                        title="Notificar pago">
-                            Notificar pago
-                    </Button>
+                    <br/>
                         
                             
                     </div>
